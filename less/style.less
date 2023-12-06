@@ -1,0 +1,25 @@
+@import 'var';
+
+body{
+    background-color: @color--main;
+    // color: @grey--light;
+    &::before{
+        content: '';
+        display: block;
+        height: 50px;
+    }
+}
+
+.logo{
+    height: 38px;
+}
+
+@media(min-width: 768px){
+.news-input{
+    width: 50%;
+}
+}
+
+.cardImg{
+    max-height: 7rem;
+}
